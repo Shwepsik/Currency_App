@@ -7,21 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		380EBE5A229B4DB60017CDD0 /* Border.swift in Sources */ = {isa = PBXBuildFile; fileRef = 380EBE59229B4DB60017CDD0 /* Border.swift */; };
 		382454BB2296E3A800DB30D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454BA2296E3A800DB30D0 /* AppDelegate.swift */; };
-		382454BD2296E3A800DB30D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454BC2296E3A800DB30D0 /* ViewController.swift */; };
-		382454C02296E3A800DB30D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382454BE2296E3A800DB30D0 /* Main.storyboard */; };
-		382454C22296E3AA00DB30D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382454C12296E3AA00DB30D0 /* Assets.xcassets */; };
 		382454C52296E3AA00DB30D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382454C32296E3AA00DB30D0 /* LaunchScreen.storyboard */; };
+		382454CE2296E3EB00DB30D0 /* MainCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454CD2296E3EB00DB30D0 /* MainCells.swift */; };
+		382454D02296E3EF00DB30D0 /* PlusCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454CF2296E3EF00DB30D0 /* PlusCells.swift */; };
+		382454D22296E3F400DB30D0 /* CurrencyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454D12296E3F400DB30D0 /* CurrencyModel.swift */; };
+		382454D52296E40E00DB30D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454D42296E40E00DB30D0 /* ViewController.swift */; };
+		382454D72296E41400DB30D0 /* MainTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454D62296E41400DB30D0 /* MainTableView.swift */; };
+		382454DB2296E41B00DB30D0 /* PlusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454D82296E41B00DB30D0 /* PlusViewController.swift */; };
+		382454DC2296E41B00DB30D0 /* PlusTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454D92296E41B00DB30D0 /* PlusTableView.swift */; };
+		382454DD2296E41B00DB30D0 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454DA2296E41B00DB30D0 /* CalculatorViewController.swift */; };
+		382454E12296E42C00DB30D0 /* RequestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454DF2296E42C00DB30D0 /* RequestController.swift */; };
+		382454E22296E42C00DB30D0 /* GetCurrencyResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382454E02296E42C00DB30D0 /* GetCurrencyResponse.swift */; };
+		382454E82296E48A00DB30D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 382454E72296E48A00DB30D0 /* Main.storyboard */; };
+		382454EB2296E60C00DB30D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 382454EA2296E60C00DB30D0 /* Assets.xcassets */; };
+		B2BB2AB32335C6E07F262F7B /* Pods_Currency_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F286038F35AFC76B35E361B /* Pods_Currency_App.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		380EBE59229B4DB60017CDD0 /* Border.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Border.swift; sourceTree = "<group>"; };
 		382454B72296E3A800DB30D0 /* Currency_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Currency_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		382454BA2296E3A800DB30D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		382454BC2296E3A800DB30D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		382454BF2296E3A800DB30D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		382454C12296E3AA00DB30D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		382454C42296E3AA00DB30D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		382454C62296E3AA00DB30D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		382454CD2296E3EB00DB30D0 /* MainCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCells.swift; sourceTree = "<group>"; };
+		382454CF2296E3EF00DB30D0 /* PlusCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusCells.swift; sourceTree = "<group>"; };
+		382454D12296E3F400DB30D0 /* CurrencyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrencyModel.swift; sourceTree = "<group>"; };
+		382454D42296E40E00DB30D0 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		382454D62296E41400DB30D0 /* MainTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableView.swift; sourceTree = "<group>"; };
+		382454D82296E41B00DB30D0 /* PlusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusViewController.swift; sourceTree = "<group>"; };
+		382454D92296E41B00DB30D0 /* PlusTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlusTableView.swift; sourceTree = "<group>"; };
+		382454DA2296E41B00DB30D0 /* CalculatorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
+		382454DF2296E42C00DB30D0 /* RequestController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestController.swift; sourceTree = "<group>"; };
+		382454E02296E42C00DB30D0 /* GetCurrencyResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetCurrencyResponse.swift; sourceTree = "<group>"; };
+		382454E72296E48A00DB30D0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		382454EA2296E60C00DB30D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4F286038F35AFC76B35E361B /* Pods_Currency_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Currency_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD0B391F93A5ADC90FB3BAF2 /* Pods-Currency_App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency_App.release.xcconfig"; path = "Pods/Target Support Files/Pods-Currency_App/Pods-Currency_App.release.xcconfig"; sourceTree = "<group>"; };
+		D0959F0B8FDD2DB5165E2F4F /* Pods-Currency_App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency_App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Currency_App/Pods-Currency_App.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +53,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2BB2AB32335C6E07F262F7B /* Pods_Currency_App.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18D45E92D180CB9F4E598D85 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0959F0B8FDD2DB5165E2F4F /* Pods-Currency_App.debug.xcconfig */,
+				AD0B391F93A5ADC90FB3BAF2 /* Pods-Currency_App.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		382454AE2296E3A800DB30D0 = {
 			isa = PBXGroup;
 			children = (
 				382454B92296E3A800DB30D0 /* Currency_App */,
 				382454B82296E3A800DB30D0 /* Products */,
+				18D45E92D180CB9F4E598D85 /* Pods */,
+				7D5A3143C9204D664A9CF5A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +91,55 @@
 			isa = PBXGroup;
 			children = (
 				382454BA2296E3A800DB30D0 /* AppDelegate.swift */,
-				382454BC2296E3A800DB30D0 /* ViewController.swift */,
-				382454BE2296E3A800DB30D0 /* Main.storyboard */,
-				382454C12296E3AA00DB30D0 /* Assets.xcassets */,
+				382454DE2296E42000DB30D0 /* Controller */,
+				382454CC2296E3DE00DB30D0 /* Model */,
+				382454D32296E3FB00DB30D0 /* View */,
+				382454E72296E48A00DB30D0 /* Main.storyboard */,
 				382454C32296E3AA00DB30D0 /* LaunchScreen.storyboard */,
+				382454EA2296E60C00DB30D0 /* Assets.xcassets */,
 				382454C62296E3AA00DB30D0 /* Info.plist */,
 			);
 			path = Currency_App;
+			sourceTree = "<group>";
+		};
+		382454CC2296E3DE00DB30D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				382454CD2296E3EB00DB30D0 /* MainCells.swift */,
+				382454CF2296E3EF00DB30D0 /* PlusCells.swift */,
+				382454D12296E3F400DB30D0 /* CurrencyModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		382454D32296E3FB00DB30D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				380EBE59229B4DB60017CDD0 /* Border.swift */,
+				382454D42296E40E00DB30D0 /* ViewController.swift */,
+				382454D62296E41400DB30D0 /* MainTableView.swift */,
+				382454D82296E41B00DB30D0 /* PlusViewController.swift */,
+				382454D92296E41B00DB30D0 /* PlusTableView.swift */,
+				382454DA2296E41B00DB30D0 /* CalculatorViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		382454DE2296E42000DB30D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				382454E02296E42C00DB30D0 /* GetCurrencyResponse.swift */,
+				382454DF2296E42C00DB30D0 /* RequestController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7D5A3143C9204D664A9CF5A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F286038F35AFC76B35E361B /* Pods_Currency_App.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 382454C92296E3AA00DB30D0 /* Build configuration list for PBXNativeTarget "Currency_App" */;
 			buildPhases = (
+				E90A58561B82580CCBF60089 /* [CP] Check Pods Manifest.lock */,
 				382454B32296E3A800DB30D0 /* Sources */,
 				382454B42296E3A800DB30D0 /* Frameworks */,
 				382454B52296E3A800DB30D0 /* Resources */,
+				2223544F57C6961AD929674B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,35 +202,84 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382454EB2296E60C00DB30D0 /* Assets.xcassets in Resources */,
 				382454C52296E3AA00DB30D0 /* LaunchScreen.storyboard in Resources */,
-				382454C22296E3AA00DB30D0 /* Assets.xcassets in Resources */,
-				382454C02296E3A800DB30D0 /* Main.storyboard in Resources */,
+				382454E82296E48A00DB30D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2223544F57C6961AD929674B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Currency_App/Pods-Currency_App-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Currency_App/Pods-Currency_App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90A58561B82580CCBF60089 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Currency_App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		382454B32296E3A800DB30D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				382454BD2296E3A800DB30D0 /* ViewController.swift in Sources */,
+				382454D72296E41400DB30D0 /* MainTableView.swift in Sources */,
+				380EBE5A229B4DB60017CDD0 /* Border.swift in Sources */,
+				382454E12296E42C00DB30D0 /* RequestController.swift in Sources */,
+				382454DB2296E41B00DB30D0 /* PlusViewController.swift in Sources */,
+				382454D22296E3F400DB30D0 /* CurrencyModel.swift in Sources */,
+				382454D02296E3EF00DB30D0 /* PlusCells.swift in Sources */,
+				382454CE2296E3EB00DB30D0 /* MainCells.swift in Sources */,
+				382454DC2296E41B00DB30D0 /* PlusTableView.swift in Sources */,
+				382454D52296E40E00DB30D0 /* ViewController.swift in Sources */,
+				382454DD2296E41B00DB30D0 /* CalculatorViewController.swift in Sources */,
 				382454BB2296E3A800DB30D0 /* AppDelegate.swift in Sources */,
+				382454E22296E42C00DB30D0 /* GetCurrencyResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		382454BE2296E3A800DB30D0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				382454BF2296E3A800DB30D0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		382454C32296E3AA00DB30D0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +409,7 @@
 		};
 		382454CA2296E3AA00DB30D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0959F0B8FDD2DB5165E2F4F /* Pods-Currency_App.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +427,7 @@
 		};
 		382454CB2296E3AA00DB30D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD0B391F93A5ADC90FB3BAF2 /* Pods-Currency_App.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
